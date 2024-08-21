@@ -2,13 +2,13 @@ import QtQuick
 
 Window {
     id: mainwin
-    width: 520
-    height: 380
+    width: 700
+    height: 500
     visible: true
-    // minimumWidth: mainwin.width
-    // minimumHeight: mainwin.height
-    // maximumWidth: mainwin.width
-    // maximumHeight: mainwin.height
+    minimumWidth: mainwin.width
+    minimumHeight: mainwin.height
+    maximumWidth: mainwin.width
+    maximumHeight: mainwin.height
     title: qsTr("QML学习之路")
     //加载后默认旋转
 
@@ -42,19 +42,6 @@ Window {
                 color: "black";
                 font.pointSize: 9;
             }
-    }
-    Item {
-        id: b
-        y:a.bottom
-        Rectangle{
-                id:rect
-                width: 100
-                height: 20
-                color: "darkviolet"
-                radius: 5 //圆角大小
-        }
-
-
     }
 
 
